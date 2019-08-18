@@ -9,7 +9,7 @@ Laravel >= 5.1 & PHP > 7.1.3
 # 安装的方式
 
 ```yml
-composer require "Youhun/sjunit-laravel"
+composer require youhun/sjunit-laravel
 ```
 
 # 配置方式
