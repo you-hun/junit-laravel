@@ -1,11 +1,11 @@
 {
-    "name": "shineyork\/sjunit-laravel",
+    "name": "Youhun\/sjunit-laravel",
     "description": "A simplified version of the laravel framework unit test",
     "license": "MIT",
     "authors": [
         {
-            "name": "shineyork",
-            "email": "shineyork@sixstaredu.com"
+            "name": "Youhun",
+            "email": "277477258@sina.com"
         }
     ],
     "require": {
@@ -13,13 +13,13 @@
     },
     "autoload": {
         "psr-4": {
-            "ShineYork\\SJunitLaravel\\": "src"
+            "Youhun\\SJunitLaravel\\": "src"
         }
     },
     "extra":{
         "laravel":{
             "providers":[
-                "ShineYork\\SJunitLaravel\\Providers\\SJunitServiceProvider"
+                "Youhun\\SJunitLaravel\\Providers\\SJunitServiceProvider"
             ]
         }
     }

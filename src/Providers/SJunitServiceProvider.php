@@ -1,5 +1,5 @@
 <?php
-namespace ShineYork\SJunitLaravel\Providers;
+namespace Youhun\SJunitLaravel\Providers;
 
 use Illuminate\Support\ServiceProvider;
 use Illuminate\Support\Facades\Route;
@@ -45,7 +45,7 @@ class SJunitServiceProvider extends ServiceProvider
             // 定义访问路由的域名
             // 'domain' => config('telescope.domain', null),
             // 是定义路由的命名空间
-            'namespace' => 'ShineYork\SJunitLaravel\Http\Controllers',
+            'namespace' => 'Youhun\SJunitLaravel\Http\Controllers',
             // 这是前缀
             'prefix' => 'sjunit',
             // 这是中间件
